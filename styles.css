@@ -1,0 +1,151 @@
+#appCalc {
+    width: 320px;
+    height: 530px;
+    margin-right: auto;
+    border: black solid 2px;
+    background-color: #1d1920;
+    border-radius: 10px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 2px 10px;
+    height: 30px;
+}
+
+#buttonsDisplay{
+    justify-items: center;
+}
+
+#menuButtons{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+#menuTitle{
+    display: flex;
+    margin-top: -25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-left: 4px;
+}    
+
+#menuButtons img {
+    width: 17px;
+    height: 17px;
+}
+
+#displayInput {
+    border: none;
+    width: 96%; 
+    height: 30px;
+    margin-left: 3px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    color: rgb(176, 176, 177);
+    overflow: hidden;
+}
+
+#displayResult {
+    border: none;
+    width: 96%;
+    height: 80px;
+    margin-left: 3px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50pt;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+
+#buttons{ 
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonM:hover {
+    background-color: #504e52;
+    cursor: pointer;
+}
+
+#buttonsM {
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.buttonM {
+    display: flex;
+    width: 45px;
+    height: 25px;
+    color: blanchedalmond;
+    margin: 1px;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    margin: 2px;
+    background-color: #2e2c2e;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttonD {
+    display: flex;
+    width: 65px;
+    height: 42px;
+    padding: 5px;
+    color: blanchedalmond;
+    background-color: #3b393b;
+    font-size:medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.buttonIgual {
+    display: flex;
+    width: 65px;
+    height: 42px;
+    padding: 5px;
+    color: blanchedalmond;
+    background-color: #063b81;
+    font-size:medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.buttonIgual:hover {
+    background-color: #062e5f;
+    cursor: pointer;
+}
+
+.buttonD:hover {
+    background-color: #504e52;
+    cursor: pointer;
+}
+
+#calcTaxa {
+    width: 320px;
+    height: 400px;
+    background-color: #1d1920;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+body{
+   display: flex;
+   
+}
